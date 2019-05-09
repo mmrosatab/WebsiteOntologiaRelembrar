@@ -1,2 +1,6 @@
-# WebSiteOntologiaRelembrar
-Desenvolvimento do WebSite para o projeto Ontologia Relembrar.
+# WebsiteOntologiaRelembrar
+
+Este repositório se destina ao Website do projeto Ontologia Relembrar. O site foi desenvolvido com auxílio das tecnologias HTML5, CSS3 e Normalize CSS. A estratégia de desenvolvimento utilizada para a construção do site foi Mobile First.
+
+O Website do projeto Ontologia Relembrar pode ser acessado em: https://ontologiarelembrar.github.io/ 
+
