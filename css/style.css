@@ -1,0 +1,434 @@
+/*GENERAL PROPERTIES*/
+
+body 
+{
+
+  font-family:  "Open Sans", Helveltica, Arial, sans-serif;
+  color: #4d4d4d;
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	margin: 0;
+	font-family:  Bree_Serif, "Open Sans", Helveltica, Arial, sans-serif;
+	/*font-weight: 700; ????*/
+}
+
+a
+{
+	text-decoration: none;
+	font-family:  Bree_Serif, "Open Sans", Helveltica, Arial, sans-serif;
+}
+
+span
+{
+	font-weight: bold;
+}
+
+ul
+{
+	list-style: none;
+}
+
+.page-container
+{
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+  	justify-content: space-between
+}
+
+.box
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* MOBILE PROPERTIES*/
+/*INDEX PAGE*/
+/*HEADER*/
+
+
+nav
+{
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+
+	background-color: #4d4d4d;
+}
+
+nav > a
+{
+	color: #f1f1f1;
+	font-weight: 700;
+	font-size: 22px;
+}
+
+nav ul
+{
+	padding: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 100%;
+}
+
+nav ul li
+{
+	text-align: center;
+	width: 100%;
+}
+
+nav ul li a
+{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	color: #f1f1f1;
+}
+
+#image-background
+{
+	background-image: url("../img/forest-haze-hd-wallpaper-39811.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #f1f1f1;
+
+	text-align: center;
+	padding: 20px; 
+
+}
+
+#image-background p
+{
+	margin: 2em;
+}
+
+.button
+{
+	background-color: #004d1a;
+	padding: 10px 30px;
+    font-size: .9em;
+    border-radius: 3px;
+   	color: #f1f1f1; 
+   	font-family:  Bree_Serif, "Open Sans", Helveltica, Arial, sans-serif;
+}
+
+
+
+/* ABOUT ONTOLOGY SECTION*/
+
+#about-ontology
+{
+	display: flex;
+	flex-direction: column;
+	align-items: justify;
+	padding: 1%;
+}
+
+#about-ontology div
+{
+	background-color: #e6e6e6;
+	padding: 2%;
+	margin: 10px;
+    border-style: none;
+    border-radius: 3px;
+
+}
+
+#about-ontology p
+{
+	text-align: justify;
+}
+
+
+#description-ontology
+{
+    padding: 1%;
+}
+
+#description-ontology div 
+{
+    text-align: center;
+    margin: 10px;
+    border-style: none;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    padding: 2%;
+}
+
+.icon-description-ontology
+{ 
+	width: 100px;
+	height: 100px;
+}
+
+/* FOOTER */
+
+footer 
+{
+    text-align: center;
+    padding: 10px;
+    background-color: #4d4d4d;
+    color: #f1f1f1;
+    font-size: 12px;
+}
+
+footer a
+{
+	color: #f1f1f1;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*DOCUMENTATION PAGE*/
+
+
+#documentation-text
+{
+	padding: 2%;
+	font-family:  Lato, Roboto, "Open Sans", Helveltica, Arial, sans-serif;
+}
+
+#documentation-text p
+{
+	text-align: justify;
+
+}
+
+#documentation-text ul
+{
+	list-style: circle;
+}
+
+
+/*PREVIEW PAGE*/
+
+#code
+{
+	display: flex;
+	flex-direction: column;
+	font-size: 100%;
+	padding: 2%;
+}
+
+/* DOWNLOAD PAGE*/
+
+#download
+{
+	justify-content: center; 
+	padding: 1%;
+}
+
+.download-box
+{
+
+	background-color: #e6e6e6;
+	padding: 3%;
+	margin: 5px;
+    border-style: none;
+    border-radius: 3px;	
+
+    text-align: center;
+}
+
+
+#customers 
+{
+  border-collapse: collapse; 
+  text-align: center;
+}
+
+#customers td, #customers th 
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+#customers tr:hover 
+{
+	background-color: #ddd;
+}
+
+#customers th 
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* PAGE DEVELOPERS*/
+
+#developers
+{
+    display: flex;
+	flex-direction: column;
+	padding: 1%;
+	text-align: center;	
+}
+
+#developers-data
+{
+    display: flex;
+	flex-direction: column;
+	
+	padding: 2%;
+	margin: 5px;
+}
+
+#relembrar-img
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+
+	padding: 2%;
+	margin: 10px;
+}
+
+#relembrar-img img
+{
+	width: 100px;
+	height: 100px;
+}
+
+
+/* DESKTOP PROPERTIES*/
+/* MEDIA QUERIES*/
+
+@media screen and (min-width: 768px)
+{
+
+	header nav
+	{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	header nav ul
+	{
+		flex-direction: row;
+		width: 70%;
+	}
+
+	#image-background
+	{
+		height: 600px;
+		height: 60vh;
+		justify-content: center;
+
+	}
+
+	#about-ontology p
+	{
+		text-align: justify;
+	}
+
+    #description-ontology
+	{
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	#documentation-container
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding: 1%;
+	}
+
+	#documentation-bar
+	{
+		display: flex;
+	}
+
+	#documentation-bar nav
+	{
+		display: flex;
+		border-style: none;
+		border-radius: 3px;
+	}
+
+	#documentation-bar nav ul
+	{
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	#documentation-bar nav ul li
+	{
+		padding: 2%;
+		margin: 10px;
+	}
+
+	#documentation-text
+	{
+		display: flex;
+		flex-direction: column;
+		background-color: #f1f1f1;
+		border-radius: 3px;
+		padding: 2%;
+		margin-left: 10px;
+
+  		overflow-y:scroll;
+  		max-height: 500px;
+	}
+
+	#documentation-text p
+	{
+		text-align: justify;
+	}
+
+	/* DEVELOPERS PAGE*/
+
+	/* DOWNLOADS PAGE */
+
+	#download
+	{
+		display: flex;
+		flex-direction: column; 
+		padding: 1%;
+	}
+
+	.download-box
+	{
+	    text-align: justify;
+	    padding: 2%;
+	    margin: 10px;
+	 	width: 22%;
+	}
+}
+
+@font-face 
+{ 
+	font-family: Bree_Serif; 
+	src: url('../fonts/Bree_Serif/BreeSerif-Regular.ttf'); 
+}
+
+@font-face 
+{ 
+	font-family: Roboto; 
+	src: url('../fonts/Roboto/Roboto-Regular.ttf'); 
+}
+
+@font-face 
+{ 
+	font-family: Lato; 
+	src: url('../fonts/Lato/Lato-Regular.ttf'); 
+}
+
