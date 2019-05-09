@@ -4,3 +4,4 @@ Este repositório se destina ao Website do projeto Ontologia Relembrar. O site f
 
 O Website do projeto Ontologia Relembrar pode ser acessado em: https://ontologiarelembrar.github.io/ 
 
+![1](https://user-images.githubusercontent.com/9852787/57481218-03636b80-7278-11e9-945e-f4cfa93ec064.png)
