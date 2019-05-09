@@ -6,7 +6,7 @@ O Website do projeto Ontologia Relembrar pode ser acessado em: https://ontologia
 
 - Versão Desktop
 
-![1](https://user-images.githubusercontent.com/9852787/57481218-03636b80-7278-11e9-945e-f4cfa93ec064.png)
+![printscreenDesktop](https://user-images.githubusercontent.com/9852787/57481960-c26c5680-7279-11e9-8d03-5e287dcd0dd5.png)
 
 - Versão Mobile
 
