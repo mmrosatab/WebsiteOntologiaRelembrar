@@ -194,6 +194,7 @@ footer a
 {
 	padding: 2%;
 	font-family:  Lato, Roboto, "Open Sans", Helveltica, Arial, sans-serif;
+
 }
 
 #documentation-text p
@@ -207,6 +208,24 @@ footer a
 	list-style: circle;
 }
 
+.documentation-img img
+{
+	padding: 2%;
+	width: 90%;
+ 	height: auto;
+}
+
+.relations-img
+{
+	padding: 1%;
+	width: 50%;
+}
+
+.graph-img img
+{
+	padding: 1%;
+	width: 100%;
+}
 
 /*PREVIEW PAGE*/
 
@@ -214,7 +233,7 @@ footer a
 {
 	display: flex;
 	flex-direction: column;
-	font-size: 100%;
+	font-size: 70%;
 	padding: 2%;
 }
 
@@ -394,7 +413,24 @@ footer a
 		text-align: justify;
 	}
 
+	.documentation-img img
+	{
+		padding: 2%;
+		width: 50%;
+	 	height: auto;
+	}
+
 	/* DEVELOPERS PAGE*/
+
+	/* PREVIEW PAGE*/
+
+	#code
+	{
+		display: flex;
+		flex-direction: column;
+		font-size: 100%;
+		padding: 2%;
+	}
 
 	/* DOWNLOADS PAGE */
 
